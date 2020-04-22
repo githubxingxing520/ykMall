@@ -1,0 +1,43 @@
+.page_index {
+  height: 100vh;
+}
+swiper,
+image {
+  width: 100%;
+}
+swiper {
+  height: calc(100vw * 340 / 750);
+}
+.index_nav {
+  display: flex;
+}
+.index_nav navigator {
+  flex: 1;
+  padding: 20rpx;
+}
+.floor_content{
+  overflow: hidden;
+}
+.index_floor .floor_title{
+  padding: 10rpx 0;
+}
+.floor_content navigator {
+  float: left;
+  width: 33.333%;
+}
+/* .floor_content navigator:nth-last-child(-n+4){
+  border: 2rpx solid red;
+} */
+
+.floor_content navigator:not(:first-child){
+  height: calc(33.333vw*386/232/2);
+  border-left: 10rpx solid #fff;
+}
+.floor_content navigator image{
+  width: 100%;
+  height: 100%;
+}
+.floor_content navigator:nth-child(2),
+.floor_content navigator:nth-child(3){
+  border-bottom: 10rpx solid #fff;
+}

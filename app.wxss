@@ -1,0 +1,26 @@
+@import './style/iconfont.wxss';
+/* 去除标签默认内外边距 */
+page,
+view,
+text,
+swiper,
+swiper-item,
+image,
+navigator {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 定义常用变量 */
+page {
+  /* 主题颜色 */
+  --themeColor: #eb4450;
+  /* 字体默认大小 */
+  font-size: 28rpx;
+  /* height: 100vh; */
+}
+/* 移动端图片宽一般都是100%,由外面的盒子决定具体宽度 */
+image{
+  display: block;
+  width: 100%;
+}

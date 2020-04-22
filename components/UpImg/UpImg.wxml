@@ -1,0 +1,4 @@
+<view class="up_img_box">
+  <image src="{{imgSrc}}"></image>
+  <icon type="clear" size="23" color="red"></icon>
+</view>
